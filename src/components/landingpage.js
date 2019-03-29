@@ -8,7 +8,7 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                     </Cell>
-                    </Grid>
+                </Grid>
             </div>
         )
     }

@@ -5,7 +5,7 @@ import LandingPage from './landingpage';
 import Invest from './invest';
 import Network from './network';
 import Pricing from './pricing';
-import AboutUs from './AboutUs';
+import AboutUs from './aboutus';
 
 const Main = () => (
     <Switch>
