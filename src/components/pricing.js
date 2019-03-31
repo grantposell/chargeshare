@@ -24,34 +24,6 @@ class Pricing extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>ChargeShare Network</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    {/* Project 3 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Personal Portfolio</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
                 </div>
             )
         } else if (this.state.activeTab === 1) {
@@ -71,34 +43,6 @@ class Pricing extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Angular Project #2</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    {/* Project 3 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Angular Project #3</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
                 </div>
             )
         } else if (this.state.activeTab === 2) {
@@ -107,34 +51,6 @@ class Pricing extends Component {
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Vue Project #1</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Vue Project #2</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    {/* Project 3 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Vue Project #3</CardTitle>
                         <CardText>
                             Lorem Ipsum
                     </CardText>
