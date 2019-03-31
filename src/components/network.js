@@ -11,9 +11,16 @@ class Network extends Component{
     }
     initMap= () => {
         var map = new window.google.maps.Map(document.getElementById('map'), {
-            center: {lat: -34.397, lng: 150.644},
-            zoom:8
+            center: {lat: 38.8403,
+            lng: -97.6114},
+            zoom: 4,
+            minZoom: 4,
+            maxZoom: 8,
+            streetViewControl: false,
+            mapTypeControl: false,
+            fullscreenControl: false,
         })
+        
     }
     render(){
         return(
