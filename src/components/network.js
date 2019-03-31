@@ -20,7 +20,7 @@ class Network extends Component{
             mapTypeControl: false,
             fullscreenControl: false,
         })
-        
+  
     }
     render(){
         return(
