@@ -6,6 +6,9 @@ import Invest from './invest';
 import Network from './network';
 import Pricing from './pricing';
 import AboutUs from './aboutus';
+import Privacy from './privacy';
+import Contact from './contact';
+
 
 const Main = () => (
     <Switch>
@@ -14,6 +17,8 @@ const Main = () => (
         <Route path="/network" component = {Network} />
         <Route path="/pricing" component = {Pricing} />
         <Route path="/aboutus" component = {AboutUs} />
+        <Route path="/privacy" component = {Privacy} />
+        <Route path="/contact" component = {Contact} />
     </Switch>
 )
 

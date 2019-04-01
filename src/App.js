@@ -32,8 +32,8 @@ class App extends Component {
           <Footer size="mini">
             <FooterSection type="left" logo="ChargeShare © 2019">
               <FooterLinkList>
-                <a href="#">Privacy & Legal</a>
-                <a href="#">Contact</a>
+                <a href="/privacy">Privacy & Legal</a>
+                <a href="/contact">Contact</a>
                 <a href="#">Careers</a>
                 <a href="#">Get Newsletter</a>
                 <a href="#">Forums</a>
