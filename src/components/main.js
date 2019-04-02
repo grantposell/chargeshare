@@ -8,7 +8,8 @@ import Pricing from './pricing';
 import AboutUs from './aboutus';
 import Privacy from './privacy';
 import Contact from './contact';
-
+import Careers from './careers';
+import Forums from './forums';
 
 const Main = () => (
     <Switch>
@@ -19,6 +20,8 @@ const Main = () => (
         <Route path="/aboutus" component = {AboutUs} />
         <Route path="/privacy" component = {Privacy} />
         <Route path="/contact" component = {Contact} />
+        <Route path="/careers" component = {Careers} />
+        <Route path="/forums" component = {Forums} />
     </Switch>
 )
 

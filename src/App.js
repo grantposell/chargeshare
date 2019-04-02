@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList, Grid, Cell } from 'react-mdl';
 import Main from "./components/main";
 import { Link } from 'react-router-dom';
 
@@ -34,9 +34,9 @@ class App extends Component {
               <FooterLinkList>
                 <a href="/privacy">Privacy & Legal</a>
                 <a href="/contact">Contact</a>
-                <a href="#">Careers</a>
+                <a href="/careers">Careers</a>
                 <a href="#">Get Newsletter</a>
-                <a href="#">Forums</a>
+                <a href="/forums">Forums</a>
               </FooterLinkList>
             </FooterSection>
           </Footer>
