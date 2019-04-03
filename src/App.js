@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content, Footer, FooterDropDownSection, FooterSection, FooterLinkList } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList, Grid, Cell } from 'react-mdl';
 import Main from "./components/main";
 import { Link } from 'react-router-dom';
 
@@ -29,39 +29,15 @@ class App extends Component {
             <div className="page-content" />
             <Main></Main>
           </Content>
-          <Footer size="mega">
-            <FooterSection type="middle">
-              <FooterDropDownSection title="Features">
-                <FooterLinkList>
-                  <a href="#">About</a>
-                  <a href="#">Terms</a>
-                  <a href="#">Partners</a>
-                  <a href="#">Updates</a>
-                </FooterLinkList>
-              </FooterDropDownSection>
-              <FooterDropDownSection title="Details">
-                <FooterLinkList>
-                  <a href="#">Specs</a>
-                  <a href="#">Tools</a>
-                  <a href="#">Resources</a>
-                </FooterLinkList>
-              </FooterDropDownSection>
-              <FooterDropDownSection title="Technology">
-                <FooterLinkList>
-                  <a href="#">How it works</a>
-                  <a href="#">Patterns</a>
-                  <a href="#">Usage</a>
-                  <a href="#">Products</a>
-                  <a href="#">Contracts</a>
-                </FooterLinkList>
-              </FooterDropDownSection>
-              <FooterDropDownSection title="FAQ">
-                <FooterLinkList>
-                  <a href="#">Questions</a>
-                  <a href="#">Answers</a>
-                  <a href="#">Contact Us</a>
-                </FooterLinkList>
-              </FooterDropDownSection>
+          <Footer size="mini">
+            <FooterSection type="left" logo="ChargeShare © 2019">
+              <FooterLinkList>
+                <a href="/privacy">Privacy & Legal</a>
+                <a href="/contact">Contact</a>
+                <a href="/careers">Careers</a>
+                <a href="#">Get Newsletter</a>
+                <a href="/forums">Forums</a>
+              </FooterLinkList>
             </FooterSection>
           </Footer>
         </Layout>
