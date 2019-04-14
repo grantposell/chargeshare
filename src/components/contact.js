@@ -6,12 +6,14 @@ class Contact extends Component {
         return (
             <div>
                 <Grid>
-                    <Cell col={4}>
+                    <Cell col={1}>
+                    </Cell>
+                    <Cell col={10}>
 
                     </Cell>
                 </Grid>
             </div>
-            )
+        )
     }
 }
 export default Contact;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './app.scss';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList, Grid, Cell } from 'react-mdl';
 import Main from "./components/main";
 import { Link } from 'react-router-dom';
@@ -23,6 +24,7 @@ class App extends Component {
               <a href="/network">Network</a>
               <a href="/pricing">Pricing</a>
               <a href="/aboutus">About Us</a>
+              <a href="/Support">Support</a>
             </Navigation>
           </Drawer>
           <Content>
@@ -30,7 +32,7 @@ class App extends Component {
             <Main></Main>
           </Content>
           <Footer size="mini">
-            <FooterSection type="left" logo="ChargeShare © 2019">
+            <FooterSection type="left" logo="ChargeShare © 2019" >
               <FooterLinkList>
                 <a href="/privacy">Privacy & Legal</a>
                 <a href="/contact">Contact</a>

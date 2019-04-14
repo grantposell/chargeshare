@@ -10,6 +10,7 @@ import Privacy from './privacy';
 import Contact from './contact';
 import Careers from './careers';
 import Forums from './forums';
+import Support from './support';
 
 const Main = () => (
     <Switch>
@@ -22,6 +23,7 @@ const Main = () => (
         <Route path="/contact" component = {Contact} />
         <Route path="/careers" component = {Careers} />
         <Route path="/forums" component = {Forums} />
+        <Route path="/support" component = {Support} />
     </Switch>
 )
 
