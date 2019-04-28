@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './app.scss';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList, Grid, Cell } from 'react-mdl';
-import Main from "./components/main";
+import Main from "./components/Main";
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
           <Header className="header-color" title={<Link className="icon" style={{ textDecoration: 'none', color: 'white' }} to="/">ChargeShare</Link>} scroll>
             <Navigation>
               <a href="/charging">Charging</a>
-              <a href="/storage">Energy</a>
+              <a href="/energy">Energy</a>
               <a href="/network">Network</a>
             </Navigation>
           </Header>

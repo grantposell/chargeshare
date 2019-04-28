@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import React, { Component } from "./node_modules/react"
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from './node_modules/react-mdl';
 
 class Pricing extends Component {
     constructor(props) {
