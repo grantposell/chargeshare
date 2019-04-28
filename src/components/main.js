@@ -1,20 +1,25 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React from './node_modules/react';
+import { Switch, Route } from './node_modules/react-router-dom';
 
-import LandingPage from './landingpage';
-import Invest from './invest';
-import Network from './network';
-import Pricing from './pricing';
-import AboutUs from './aboutus';
-import Privacy from './privacy';
-import Contact from './contact';
-import Careers from './careers';
-import Forums from './forums';
-import Support from './support';
+import LandingPage from './LandingPage';
+import Charging from './Charging';
+import Energy from './Energy';
+import Invest from './Invest';
+import Network from './Network';
+import Pricing from './Pricing';
+import AboutUs from './AboutUs';
+import Privacy from './Privacy';
+import Contact from './Contact';
+import Careers from './Careers';
+import Forums from './Forums';
+
+
 
 const Main = () => (
     <Switch>
         <Route exact path="/" component = {LandingPage} />
+        <Route exact path="/charging" component = {Charging} />
+        <Route exact path="/energy" component = {Energy} />
         <Route path="/invest" component = {Invest} />
         <Route path="/network" component = {Network} />
         <Route path="/pricing" component = {Pricing} />
@@ -23,7 +28,6 @@ const Main = () => (
         <Route path="/contact" component = {Contact} />
         <Route path="/careers" component = {Careers} />
         <Route path="/forums" component = {Forums} />
-        <Route path="/support" component = {Support} />
     </Switch>
 )
 

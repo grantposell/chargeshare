@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
-import cx from 'classnames';
-import Collapse from '@kunukn/react-collapse';
+import React, { Component } from './node_modules/react';
+import { Grid, Cell } from './node_modules/react-mdl';
+import cx from './node_modules/classnames';
+import Collapse from './node_modules/@kunukn/react-collapse';
 
 class Support extends Component {
     state = {

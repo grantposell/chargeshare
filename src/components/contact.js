@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import React, { Component } from './node_modules/react';
+import { Grid, Cell } from './node_modules/react-mdl';
 
 class Contact extends Component {
     render() {
